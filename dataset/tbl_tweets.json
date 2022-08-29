@@ -1,0 +1,16 @@
+{
+	"name": "tbl_tweets",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "rkrishnan_training_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "test",
+			"table": "tbl_tweets"
+		}
+	}
+}

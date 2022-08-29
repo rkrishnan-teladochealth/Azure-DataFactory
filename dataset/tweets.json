@@ -1,0 +1,104 @@
+{
+	"name": "tweets",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "tweets.csv",
+				"container": "training"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "#ID",
+				"type": "String"
+			},
+			{
+				"name": "StatusId",
+				"type": "String"
+			},
+			{
+				"name": "Tweet",
+				"type": "String"
+			},
+			{
+				"name": "Source",
+				"type": "String"
+			},
+			{
+				"name": "UserID",
+				"type": "String"
+			},
+			{
+				"name": "Latittude",
+				"type": "String"
+			},
+			{
+				"name": "Longitude",
+				"type": "String"
+			},
+			{
+				"name": "InReplyToScreenName",
+				"type": "String"
+			},
+			{
+				"name": "InReplyToStatusID",
+				"type": "String"
+			},
+			{
+				"name": "InReplyToUserID",
+				"type": "String"
+			},
+			{
+				"name": "RetweetedStatus_StatusID",
+				"type": "String"
+			},
+			{
+				"name": "RetweetCount",
+				"type": "String"
+			},
+			{
+				"name": "InsertedDate",
+				"type": "String"
+			},
+			{
+				"name": "CreatedDate",
+				"type": "String"
+			},
+			{
+				"name": "Query",
+				"type": "String"
+			},
+			{
+				"name": "HourOfDay",
+				"type": "String"
+			},
+			{
+				"name": "TweetType",
+				"type": "String"
+			},
+			{
+				"name": "Platform",
+				"type": "String"
+			},
+			{
+				"name": "Devices",
+				"type": "String"
+			},
+			{
+				"name": "App",
+				"type": "String"
+			}
+		]
+	}
+}
