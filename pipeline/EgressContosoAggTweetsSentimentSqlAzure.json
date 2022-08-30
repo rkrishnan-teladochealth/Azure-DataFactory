@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy data1",
+				"name": "wf_tweets_raw_ld",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -34,6 +34,248 @@
 					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
+						"mappings": [
+							{
+								"source": {
+									"name": "#ID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "ID",
+									"type": "Int32",
+									"physicalType": "int"
+								}
+							},
+							{
+								"source": {
+									"name": "StatusId",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "StatusId",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Tweet",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Tweet",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Source",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Source",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "UserID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "UserID",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Latittude",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Latitude",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Longitude",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Longitutde",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "InReplyToScreenName",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "InReplyToScreenName",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "InReplyToStatusID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "InReplyToStatusID",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "InReplyToUserID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "InReplyToUserID",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "RetweetedStatus_StatusID",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "RetweetedStatus_StatusID",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "RetweetCount",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "RetweetCount",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "InsertedDate",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "InsertedDate",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "CreatedDate",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "CreatedDate",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Query",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Query",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "HourOfDay",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "HourOfDay",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "TweetType",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "TweetType",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Platform",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Platform",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "Devices",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "Devices",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							},
+							{
+								"source": {
+									"name": "App",
+									"type": "String",
+									"physicalType": "String"
+								},
+								"sink": {
+									"name": "App",
+									"type": "String",
+									"physicalType": "nvarchar"
+								}
+							}
+						],
 						"typeConversion": true,
 						"typeConversionSettings": {
 							"allowDataTruncation": true,
@@ -49,7 +291,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "tbl_tweets",
+						"referenceName": "tweets_raw",
 						"type": "DatasetReference"
 					}
 				]

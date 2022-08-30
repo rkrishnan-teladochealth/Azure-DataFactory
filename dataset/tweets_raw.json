@@ -1,0 +1,98 @@
+{
+	"name": "tweets_raw",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "rkrishnan_training_db",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "StatusId",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Tweet",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Source",
+				"type": "nvarchar"
+			},
+			{
+				"name": "UserID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Latitude",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Longitutde",
+				"type": "nvarchar"
+			},
+			{
+				"name": "InReplyToScreenName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "InReplyToStatusID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "InReplyToUserID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RetweetedStatus_StatusID",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RetweetCount",
+				"type": "nvarchar"
+			},
+			{
+				"name": "InsertedDate",
+				"type": "nvarchar"
+			},
+			{
+				"name": "CreatedDate",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Query",
+				"type": "nvarchar"
+			},
+			{
+				"name": "HourOfDay",
+				"type": "nvarchar"
+			},
+			{
+				"name": "TweetType",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Platform",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Devices",
+				"type": "nvarchar"
+			},
+			{
+				"name": "App",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "training",
+			"table": "tweets_raw"
+		}
+	}
+}
