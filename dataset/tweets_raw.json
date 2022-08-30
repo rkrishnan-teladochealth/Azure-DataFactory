@@ -10,8 +10,7 @@
 		"schema": [
 			{
 				"name": "ID",
-				"type": "int",
-				"precision": 10
+				"type": "nvarchar"
 			},
 			{
 				"name": "StatusId",
