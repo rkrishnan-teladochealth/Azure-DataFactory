@@ -1,5 +1,5 @@
 {
-	"name": "EgressContosoAggTweetsSentimentSqlAzure",
+	"name": "wf_tweets_raw_ld",
 	"properties": {
 		"activities": [
 			{
