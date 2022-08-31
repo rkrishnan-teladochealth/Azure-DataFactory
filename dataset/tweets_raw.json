@@ -10,83 +10,83 @@
 		"schema": [
 			{
 				"name": "ID",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "StatusId",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "Tweet",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "Source",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "UserID",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "Latitude",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "Longitutde",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "InReplyToScreenName",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "InReplyToStatusID",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "InReplyToUserID",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "RetweetedStatus_StatusID",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "RetweetCount",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "InsertedDate",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "CreatedDate",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "Query",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "HourOfDay",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "TweetType",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "Platform",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "Devices",
-				"type": "nvarchar"
+				"type": "varchar"
 			},
 			{
 				"name": "App",
-				"type": "nvarchar"
+				"type": "varchar"
 			}
 		],
 		"typeProperties": {
