@@ -44,7 +44,7 @@
 								"sink": {
 									"name": "ID",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -56,7 +56,7 @@
 								"sink": {
 									"name": "StatusId",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -68,7 +68,7 @@
 								"sink": {
 									"name": "Tweet",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -80,7 +80,7 @@
 								"sink": {
 									"name": "Source",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -92,7 +92,7 @@
 								"sink": {
 									"name": "UserID",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -104,7 +104,7 @@
 								"sink": {
 									"name": "Latitude",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -116,7 +116,7 @@
 								"sink": {
 									"name": "Longitutde",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -128,7 +128,7 @@
 								"sink": {
 									"name": "InReplyToScreenName",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -140,7 +140,7 @@
 								"sink": {
 									"name": "InReplyToStatusID",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -152,7 +152,7 @@
 								"sink": {
 									"name": "InReplyToUserID",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -164,7 +164,7 @@
 								"sink": {
 									"name": "RetweetedStatus_StatusID",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -176,7 +176,7 @@
 								"sink": {
 									"name": "RetweetCount",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -188,7 +188,7 @@
 								"sink": {
 									"name": "InsertedDate",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -200,7 +200,7 @@
 								"sink": {
 									"name": "CreatedDate",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -212,7 +212,7 @@
 								"sink": {
 									"name": "Query",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -224,7 +224,7 @@
 								"sink": {
 									"name": "HourOfDay",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -236,7 +236,7 @@
 								"sink": {
 									"name": "TweetType",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -248,7 +248,7 @@
 								"sink": {
 									"name": "Platform",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -260,7 +260,7 @@
 								"sink": {
 									"name": "Devices",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							},
 							{
@@ -272,7 +272,7 @@
 								"sink": {
 									"name": "App",
 									"type": "String",
-									"physicalType": "nvarchar"
+									"physicalType": "varchar"
 								}
 							}
 						],
