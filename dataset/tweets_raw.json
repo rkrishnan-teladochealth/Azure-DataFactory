@@ -52,7 +52,9 @@
 			},
 			{
 				"name": "RetweetedStatus_StatusID",
-				"type": "varchar"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
 			},
 			{
 				"name": "RetweetCount",
@@ -60,11 +62,15 @@
 			},
 			{
 				"name": "InsertedDate",
-				"type": "varchar"
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
 			},
 			{
 				"name": "CreatedDate",
-				"type": "varchar"
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
 			},
 			{
 				"name": "Query",
