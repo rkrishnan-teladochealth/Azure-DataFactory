@@ -55,8 +55,10 @@
 								},
 								"sink": {
 									"name": "StatusId",
-									"type": "String",
-									"physicalType": "varchar"
+									"type": "Decimal",
+									"physicalType": "decimal",
+									"scale": 0,
+									"precision": 18
 								}
 							},
 							{
