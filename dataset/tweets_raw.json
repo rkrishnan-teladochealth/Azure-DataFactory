@@ -14,7 +14,9 @@
 			},
 			{
 				"name": "StatusId",
-				"type": "varchar"
+				"type": "decimal",
+				"precision": 18,
+				"scale": 0
 			},
 			{
 				"name": "Tweet",
