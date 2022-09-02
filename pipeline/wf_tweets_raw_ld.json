@@ -165,8 +165,10 @@
 								},
 								"sink": {
 									"name": "RetweetedStatus_StatusID",
-									"type": "String",
-									"physicalType": "varchar"
+									"type": "Decimal",
+									"physicalType": "decimal",
+									"scale": 0,
+									"precision": 18
 								}
 							},
 							{
@@ -189,8 +191,8 @@
 								},
 								"sink": {
 									"name": "InsertedDate",
-									"type": "String",
-									"physicalType": "varchar"
+									"type": "DateTime",
+									"physicalType": "datetime"
 								}
 							},
 							{
@@ -201,8 +203,8 @@
 								},
 								"sink": {
 									"name": "CreatedDate",
-									"type": "String",
-									"physicalType": "varchar"
+									"type": "DateTime",
+									"physicalType": "datetime"
 								}
 							},
 							{
